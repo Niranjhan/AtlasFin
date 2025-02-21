@@ -1,0 +1,6 @@
+userId,timestamp,merchantName,amount,suspicious
+U003,2025-02-19 11:35:00,Amazon,500,true
+U003,2025-02-19 11:36:00,Amazon,20000,true
+U003,2025-02-19 11:37:00,Amazon,500,true
+U003,2025-02-19 11:38:00,Amazon,500,true
+U003,2025-02-19 11:39:00,Amazon,500,true

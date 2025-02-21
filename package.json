@@ -1,0 +1,24 @@
+{
+  "name": "atlasfin",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "ts-node ./src/app.ts",
+    "test": "mocha -r ts-node/register ./test/*.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^11.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "@types/chai": "^5.0.1",
+    "@types/mocha": "^10.0.10"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
