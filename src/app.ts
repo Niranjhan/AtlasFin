@@ -3,7 +3,6 @@ import { loadTransactions, loadUserDetails, loadknownMerchants, ruleHighFrequenc
 
 
 
-// Step 2: Combine the rules and flag suspicious transactions
 export async function flagSuspiciousTransactions(transactionsFilePath: string, merchantsFilePath: string, userFilePath: string) {
     const { transactions, userTransactions } = await loadTransactions(transactionsFilePath);
     const knownMerchants = await loadknownMerchants(merchantsFilePath)
